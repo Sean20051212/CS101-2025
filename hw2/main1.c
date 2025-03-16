@@ -10,7 +10,7 @@ int main()
     scanf("%d",&N);
     srand(1);
     for(int i = 0; i < N*7 ; i++ ){
-        lott[i] = rand()%70;
+        lott[i] = rand()%69+1;
     }
     FILE *fp;
     fp = fopen("lotto.txt","w+");
